@@ -12,6 +12,8 @@
 		962EC26C1BECFEE800233C08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962EC26A1BECFEE800233C08 /* Main.storyboard */; };
 		962EC26E1BECFEE800233C08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 962EC26D1BECFEE800233C08 /* Assets.xcassets */; };
 		962EC2711BECFEE800233C08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962EC26F1BECFEE800233C08 /* LaunchScreen.storyboard */; };
+		962EC2791BECFEF200233C08 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962EC2781BECFEF200233C08 /* ProgressView.swift */; };
+		962EC27D1BED4F7D00233C08 /* EBNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962EC27C1BED4F7D00233C08 /* EBNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		962EC26D1BECFEE800233C08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		962EC2701BECFEE800233C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		962EC2721BECFEE800233C08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		962EC2781BECFEF200233C08 /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		962EC27C1BED4F7D00233C08 /* EBNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EBNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				962EC2661BECFEE800233C08 /* AppDelegate.swift */,
 				962EC2681BECFEE800233C08 /* ViewController.swift */,
 				962EC26A1BECFEE800233C08 /* Main.storyboard */,
+				962EC2781BECFEF200233C08 /* ProgressView.swift */,
+				962EC27C1BED4F7D00233C08 /* EBNavigationController.swift */,
 				962EC26D1BECFEE800233C08 /* Assets.xcassets */,
 				962EC26F1BECFEE800233C08 /* LaunchScreen.storyboard */,
 				962EC2721BECFEE800233C08 /* Info.plist */,
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				962EC2691BECFEE800233C08 /* ViewController.swift in Sources */,
+				962EC27D1BED4F7D00233C08 /* EBNavigationController.swift in Sources */,
 				962EC2671BECFEE800233C08 /* AppDelegate.swift in Sources */,
+				962EC2791BECFEF200233C08 /* ProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +259,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.edwinb.EBProgressView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -262,6 +271,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.edwinb.EBProgressView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
